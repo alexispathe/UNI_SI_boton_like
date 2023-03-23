@@ -1,0 +1,48 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+.container{
+    width: 500px;
+    margin: 50px auto;
+}
+.container input{
+    width:100%;
+    height: 40px;
+    border: 0px;
+    border-bottom: 3px solid purple;
+    outline: 0;
+    font-size: 20px;
+}
+.item-container .item{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    margin: 10px auto;
+    justify-content: center;
+
+}
+.item-container .item:hover{
+    background-color: rgba(236, 234, 234, 0.226);
+    transition-duration: .5s;
+    cursor: pointer;
+}
+.item-container .item p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.item-container .item  button{
+    padding: 10px 20px;
+    background-color: rgb(0, 225, 255);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border: 0px;
+    margin-left: 20px;
+}
+
+.item-container .item  button:hover{
+    background-color:rgb(0, 110, 255) ;
+}
